@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7F94B1422EF2B4800B3D548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F94B1322EF2B4800B3D548 /* AppDelegate.swift */; };
+		F7F94B1622EF2B4800B3D548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F94B1522EF2B4800B3D548 /* ViewController.swift */; };
+		F7F94B1922EF2B4800B3D548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F94B1722EF2B4800B3D548 /* Main.storyboard */; };
+		F7F94B1B22EF2B4A00B3D548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F94B1A22EF2B4A00B3D548 /* Assets.xcassets */; };
+		F7F94B1E22EF2B4A00B3D548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F94B1C22EF2B4A00B3D548 /* LaunchScreen.storyboard */; };
+		F7F94B2922EF2B4A00B3D548 /* HippotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F94B2822EF2B4A00B3D548 /* HippotifyTests.swift */; };
+		F7F94B3422EF2B4A00B3D548 /* HippotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F94B3322EF2B4A00B3D548 /* HippotifyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7F94B2522EF2B4A00B3D548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7F94B0822EF2B4800B3D548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7F94B0F22EF2B4800B3D548;
+			remoteInfo = Hippotify;
+		};
+		F7F94B3022EF2B4A00B3D548 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7F94B0822EF2B4800B3D548 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7F94B0F22EF2B4800B3D548;
+			remoteInfo = Hippotify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7F94B1022EF2B4800B3D548 /* Hippotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hippotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F94B1322EF2B4800B3D548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7F94B1522EF2B4800B3D548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7F94B1822EF2B4800B3D548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7F94B1A22EF2B4A00B3D548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7F94B1D22EF2B4A00B3D548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7F94B1F22EF2B4A00B3D548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F94B2422EF2B4A00B3D548 /* HippotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F94B2822EF2B4A00B3D548 /* HippotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippotifyTests.swift; sourceTree = "<group>"; };
+		F7F94B2A22EF2B4A00B3D548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F94B2F22EF2B4A00B3D548 /* HippotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F94B3322EF2B4A00B3D548 /* HippotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippotifyUITests.swift; sourceTree = "<group>"; };
+		F7F94B3522EF2B4A00B3D548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7F94B0D22EF2B4800B3D548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F94B2122EF2B4A00B3D548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F94B2C22EF2B4A00B3D548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7F94B0722EF2B4800B3D548 = {
+			isa = PBXGroup;
+			children = (
+				F7F94B1222EF2B4800B3D548 /* Hippotify */,
+				F7F94B2722EF2B4A00B3D548 /* HippotifyTests */,
+				F7F94B3222EF2B4A00B3D548 /* HippotifyUITests */,
+				F7F94B1122EF2B4800B3D548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7F94B1122EF2B4800B3D548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7F94B1022EF2B4800B3D548 /* Hippotify.app */,
+				F7F94B2422EF2B4A00B3D548 /* HippotifyTests.xctest */,
+				F7F94B2F22EF2B4A00B3D548 /* HippotifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7F94B1222EF2B4800B3D548 /* Hippotify */ = {
+			isa = PBXGroup;
+			children = (
+				F7F94B1322EF2B4800B3D548 /* AppDelegate.swift */,
+				F7F94B1522EF2B4800B3D548 /* ViewController.swift */,
+				F7F94B1722EF2B4800B3D548 /* Main.storyboard */,
+				F7F94B1A22EF2B4A00B3D548 /* Assets.xcassets */,
+				F7F94B1C22EF2B4A00B3D548 /* LaunchScreen.storyboard */,
+				F7F94B1F22EF2B4A00B3D548 /* Info.plist */,
+			);
+			path = Hippotify;
+			sourceTree = "<group>";
+		};
+		F7F94B2722EF2B4A00B3D548 /* HippotifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7F94B2822EF2B4A00B3D548 /* HippotifyTests.swift */,
+				F7F94B2A22EF2B4A00B3D548 /* Info.plist */,
+			);
+			path = HippotifyTests;
+			sourceTree = "<group>";
+		};
+		F7F94B3222EF2B4A00B3D548 /* HippotifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7F94B3322EF2B4A00B3D548 /* HippotifyUITests.swift */,
+				F7F94B3522EF2B4A00B3D548 /* Info.plist */,
+			);
+			path = HippotifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7F94B0F22EF2B4800B3D548 /* Hippotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F94B3822EF2B4A00B3D548 /* Build configuration list for PBXNativeTarget "Hippotify" */;
+			buildPhases = (
+				F7F94B0C22EF2B4800B3D548 /* Sources */,
+				F7F94B0D22EF2B4800B3D548 /* Frameworks */,
+				F7F94B0E22EF2B4800B3D548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hippotify;
+			productName = Hippotify;
+			productReference = F7F94B1022EF2B4800B3D548 /* Hippotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7F94B2322EF2B4A00B3D548 /* HippotifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F94B3B22EF2B4A00B3D548 /* Build configuration list for PBXNativeTarget "HippotifyTests" */;
+			buildPhases = (
+				F7F94B2022EF2B4A00B3D548 /* Sources */,
+				F7F94B2122EF2B4A00B3D548 /* Frameworks */,
+				F7F94B2222EF2B4A00B3D548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7F94B2622EF2B4A00B3D548 /* PBXTargetDependency */,
+			);
+			name = HippotifyTests;
+			productName = HippotifyTests;
+			productReference = F7F94B2422EF2B4A00B3D548 /* HippotifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7F94B2E22EF2B4A00B3D548 /* HippotifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7F94B3E22EF2B4A00B3D548 /* Build configuration list for PBXNativeTarget "HippotifyUITests" */;
+			buildPhases = (
+				F7F94B2B22EF2B4A00B3D548 /* Sources */,
+				F7F94B2C22EF2B4A00B3D548 /* Frameworks */,
+				F7F94B2D22EF2B4A00B3D548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7F94B3122EF2B4A00B3D548 /* PBXTargetDependency */,
+			);
+			name = HippotifyUITests;
+			productName = HippotifyUITests;
+			productReference = F7F94B2F22EF2B4A00B3D548 /* HippotifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7F94B0822EF2B4800B3D548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Marasy Phi";
+				TargetAttributes = {
+					F7F94B0F22EF2B4800B3D548 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					F7F94B2322EF2B4A00B3D548 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F7F94B0F22EF2B4800B3D548;
+					};
+					F7F94B2E22EF2B4A00B3D548 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F7F94B0F22EF2B4800B3D548;
+					};
+				};
+			};
+			buildConfigurationList = F7F94B0B22EF2B4800B3D548 /* Build configuration list for PBXProject "Hippotify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7F94B0722EF2B4800B3D548;
+			productRefGroup = F7F94B1122EF2B4800B3D548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7F94B0F22EF2B4800B3D548 /* Hippotify */,
+				F7F94B2322EF2B4A00B3D548 /* HippotifyTests */,
+				F7F94B2E22EF2B4A00B3D548 /* HippotifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7F94B0E22EF2B4800B3D548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F94B1E22EF2B4A00B3D548 /* LaunchScreen.storyboard in Resources */,
+				F7F94B1B22EF2B4A00B3D548 /* Assets.xcassets in Resources */,
+				F7F94B1922EF2B4800B3D548 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F94B2222EF2B4A00B3D548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F94B2D22EF2B4A00B3D548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7F94B0C22EF2B4800B3D548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F94B1622EF2B4800B3D548 /* ViewController.swift in Sources */,
+				F7F94B1422EF2B4800B3D548 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F94B2022EF2B4A00B3D548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F94B2922EF2B4A00B3D548 /* HippotifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F94B2B22EF2B4A00B3D548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7F94B3422EF2B4A00B3D548 /* HippotifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7F94B2622EF2B4A00B3D548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7F94B0F22EF2B4800B3D548 /* Hippotify */;
+			targetProxy = F7F94B2522EF2B4A00B3D548 /* PBXContainerItemProxy */;
+		};
+		F7F94B3122EF2B4A00B3D548 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7F94B0F22EF2B4800B3D548 /* Hippotify */;
+			targetProxy = F7F94B3022EF2B4A00B3D548 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7F94B1722EF2B4800B3D548 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7F94B1822EF2B4800B3D548 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7F94B1C22EF2B4A00B3D548 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7F94B1D22EF2B4A00B3D548 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7F94B3622EF2B4A00B3D548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7F94B3722EF2B4A00B3D548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7F94B3922EF2B4A00B3D548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hippotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hipporasy.Hippotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7F94B3A22EF2B4A00B3D548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Hippotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hipporasy.Hippotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F7F94B3C22EF2B4A00B3D548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HippotifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hipporasy.HippotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hippotify.app/Hippotify";
+			};
+			name = Debug;
+		};
+		F7F94B3D22EF2B4A00B3D548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HippotifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hipporasy.HippotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hippotify.app/Hippotify";
+			};
+			name = Release;
+		};
+		F7F94B3F22EF2B4A00B3D548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HippotifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hipporasy.HippotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hippotify;
+			};
+			name = Debug;
+		};
+		F7F94B4022EF2B4A00B3D548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HippotifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hipporasy.HippotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hippotify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7F94B0B22EF2B4800B3D548 /* Build configuration list for PBXProject "Hippotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F94B3622EF2B4A00B3D548 /* Debug */,
+				F7F94B3722EF2B4A00B3D548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F94B3822EF2B4A00B3D548 /* Build configuration list for PBXNativeTarget "Hippotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F94B3922EF2B4A00B3D548 /* Debug */,
+				F7F94B3A22EF2B4A00B3D548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F94B3B22EF2B4A00B3D548 /* Build configuration list for PBXNativeTarget "HippotifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F94B3C22EF2B4A00B3D548 /* Debug */,
+				F7F94B3D22EF2B4A00B3D548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7F94B3E22EF2B4A00B3D548 /* Build configuration list for PBXNativeTarget "HippotifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7F94B3F22EF2B4A00B3D548 /* Debug */,
+				F7F94B4022EF2B4A00B3D548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7F94B0822EF2B4800B3D548 /* Project object */;
+}
