@@ -7,3 +7,20 @@
 //
 
 import Foundation
+
+protocol TrackRepository {
+    func search(keyword: String, handler: @escaping ([Track]?, Error?)-> Void)
+}
+
+class DirectTrackRepository: TrackRepository, ServiceRequestable {
+    
+    func search(keyword: String, handler: @escaping ([Track]?, Error?) -> Void) {
+        fetch([Track].self, for: .searchTrack(keyword: keyword)) { (response, error) in
+            guard error == nil, let response = response else {
+                handler(nil, error)
+                return
+            }
+            handler(response, nil)
+        }
+    }
+}

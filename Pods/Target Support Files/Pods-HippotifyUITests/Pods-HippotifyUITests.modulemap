@@ -1,0 +1,6 @@
+framework module Pods_HippotifyUITests {
+  umbrella header "Pods-HippotifyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

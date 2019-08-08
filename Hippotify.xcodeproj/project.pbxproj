@@ -7,13 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DAF44EA2580CF8AF2D4CFB0 /* Pods_HippotifyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E442CCFAC7C98B0452EBC5 /* Pods_HippotifyTests.framework */; };
+		CD6B110D00E53EB4015B3C9F /* Pods_Hippotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 533146F42735C233116E3957 /* Pods_Hippotify.framework */; };
+		E8BED4413AB5F473EF665EBF /* Pods_HippotifyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A6F6651B7B4288D5F2A58AD /* Pods_HippotifyUITests.framework */; };
+		F70F0EA122FC898F0048691E /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70F0EA022FC898F0048691E /* TrackViewController.swift */; };
+		F73BCD3322F70BDC0066B52C /* Happier.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F73BCD3222F70BDC0066B52C /* Happier.mp3 */; };
+		F73BCD3522F70E080066B52C /* Falling.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F73BCD3422F70E080066B52C /* Falling.mp3 */; };
+		F792E7ED22F6CCBC00955A1F /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792E7EC22F6CCBC00955A1F /* BaseResponse.swift */; };
+		F792E7EF22F6CE0100955A1F /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792E7EE22F6CE0100955A1F /* Album.swift */; };
+		F792E7F122F6CE0600955A1F /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792E7F022F6CE0600955A1F /* Artist.swift */; };
+		F792E7F422F6D21900955A1F /* HippotifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792E7F322F6D21900955A1F /* HippotifyView.swift */; };
+		F792E7F622F6D5A000955A1F /* ShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792E7F522F6D5A000955A1F /* ShadowImageView.swift */; };
+		F792E7F822F6D74200955A1F /* MusicController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792E7F722F6D74200955A1F /* MusicController.swift */; };
+		F792E7FA22F6DA9600955A1F /* HippotifySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792E7F922F6DA9600955A1F /* HippotifySlider.swift */; };
+		F792E7FC22F6DF5400955A1F /* HippotifyColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F792E7FB22F6DF5400955A1F /* HippotifyColor.swift */; };
+		F7E41E8B22FC797F00CECB2B /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E41E8A22FC797F00CECB2B /* ArtistViewController.swift */; };
+		F7E41E8D22FC798900CECB2B /* AlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E41E8C22FC798900CECB2B /* AlbumViewController.swift */; };
+		F7E41E9022FC7EE200CECB2B /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E41E8F22FC7EE200CECB2B /* UITableViewCell+Extension.swift */; };
+		F7E41E9222FC7F6200CECB2B /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E41E9122FC7F6200CECB2B /* BaseTableViewController.swift */; };
+		F7E41E9422FC805A00CECB2B /* BindableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E41E9322FC805A00CECB2B /* BindableCell.swift */; };
+		F7E5475B22EF2E3D00AA337C /* ServiceRequestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5475A22EF2E3D00AA337C /* ServiceRequestable.swift */; };
+		F7E5475E22EF310B00AA337C /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E5475D22EF310B00AA337C /* Track.swift */; };
 		F7F94B1422EF2B4800B3D548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F94B1322EF2B4800B3D548 /* AppDelegate.swift */; };
-		F7F94B1622EF2B4800B3D548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F94B1522EF2B4800B3D548 /* ViewController.swift */; };
 		F7F94B1922EF2B4800B3D548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F94B1722EF2B4800B3D548 /* Main.storyboard */; };
 		F7F94B1B22EF2B4A00B3D548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7F94B1A22EF2B4A00B3D548 /* Assets.xcassets */; };
 		F7F94B1E22EF2B4A00B3D548 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7F94B1C22EF2B4A00B3D548 /* LaunchScreen.storyboard */; };
 		F7F94B2922EF2B4A00B3D548 /* HippotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F94B2822EF2B4A00B3D548 /* HippotifyTests.swift */; };
 		F7F94B3422EF2B4A00B3D548 /* HippotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F94B3322EF2B4A00B3D548 /* HippotifyUITests.swift */; };
+		F7F94B4522EF2B7400B3D548 /* ArtistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F94B4422EF2B7400B3D548 /* ArtistRepository.swift */; };
+		F7F94B4722EF2B7D00B3D548 /* TrackRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F94B4622EF2B7D00B3D548 /* TrackRepository.swift */; };
+		F7F94B4922EF2B8700B3D548 /* AlbumRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F94B4822EF2B8700B3D548 /* AlbumRepository.swift */; };
+		F7F94B4B22EF2B9300B3D548 /* DeezerApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F94B4A22EF2B9300B3D548 /* DeezerApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +58,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06E442CCFAC7C98B0452EBC5 /* Pods_HippotifyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HippotifyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C55E4BEE510F667C7A4D8FB /* Pods-Hippotify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hippotify.release.xcconfig"; path = "Target Support Files/Pods-Hippotify/Pods-Hippotify.release.xcconfig"; sourceTree = "<group>"; };
+		22908467870B669E54DA43C1 /* Pods-HippotifyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HippotifyTests.release.xcconfig"; path = "Target Support Files/Pods-HippotifyTests/Pods-HippotifyTests.release.xcconfig"; sourceTree = "<group>"; };
+		2A6F6651B7B4288D5F2A58AD /* Pods_HippotifyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HippotifyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		533146F42735C233116E3957 /* Pods_Hippotify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hippotify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E9E092D737F14C5B368060F /* Pods-HippotifyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HippotifyUITests.release.xcconfig"; path = "Target Support Files/Pods-HippotifyUITests/Pods-HippotifyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		80CE4479C35991105F152A03 /* Pods-Hippotify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hippotify.debug.xcconfig"; path = "Target Support Files/Pods-Hippotify/Pods-Hippotify.debug.xcconfig"; sourceTree = "<group>"; };
+		86BF3E0334A7868E39B7A8D2 /* Pods-HippotifyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HippotifyUITests.debug.xcconfig"; path = "Target Support Files/Pods-HippotifyUITests/Pods-HippotifyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED714B32079E3DBDDC099B5D /* Pods-HippotifyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HippotifyTests.debug.xcconfig"; path = "Target Support Files/Pods-HippotifyTests/Pods-HippotifyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F70F0EA022FC898F0048691E /* TrackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
+		F73BCD3222F70BDC0066B52C /* Happier.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Happier.mp3; sourceTree = "<group>"; };
+		F73BCD3422F70E080066B52C /* Falling.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Falling.mp3; sourceTree = "<group>"; };
+		F792E7EC22F6CCBC00955A1F /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		F792E7EE22F6CE0100955A1F /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		F792E7F022F6CE0600955A1F /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		F792E7F322F6D21900955A1F /* HippotifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippotifyView.swift; sourceTree = "<group>"; };
+		F792E7F522F6D5A000955A1F /* ShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowImageView.swift; sourceTree = "<group>"; };
+		F792E7F722F6D74200955A1F /* MusicController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicController.swift; sourceTree = "<group>"; };
+		F792E7F922F6DA9600955A1F /* HippotifySlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippotifySlider.swift; sourceTree = "<group>"; };
+		F792E7FB22F6DF5400955A1F /* HippotifyColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippotifyColor.swift; sourceTree = "<group>"; };
+		F7E41E8A22FC797F00CECB2B /* ArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		F7E41E8C22FC798900CECB2B /* AlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewController.swift; sourceTree = "<group>"; };
+		F7E41E8F22FC7EE200CECB2B /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		F7E41E9122FC7F6200CECB2B /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		F7E41E9322FC805A00CECB2B /* BindableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindableCell.swift; sourceTree = "<group>"; };
+		F7E5475A22EF2E3D00AA337C /* ServiceRequestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRequestable.swift; sourceTree = "<group>"; };
+		F7E5475D22EF310B00AA337C /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		F7F94B1022EF2B4800B3D548 /* Hippotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hippotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F94B1322EF2B4800B3D548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7F94B1522EF2B4800B3D548 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7F94B1822EF2B4800B3D548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7F94B1A22EF2B4A00B3D548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7F94B1D22EF2B4A00B3D548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +97,10 @@
 		F7F94B2F22EF2B4A00B3D548 /* HippotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HippotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F94B3322EF2B4A00B3D548 /* HippotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HippotifyUITests.swift; sourceTree = "<group>"; };
 		F7F94B3522EF2B4A00B3D548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7F94B4422EF2B7400B3D548 /* ArtistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRepository.swift; sourceTree = "<group>"; };
+		F7F94B4622EF2B7D00B3D548 /* TrackRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackRepository.swift; sourceTree = "<group>"; };
+		F7F94B4822EF2B8700B3D548 /* AlbumRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumRepository.swift; sourceTree = "<group>"; };
+		F7F94B4A22EF2B9300B3D548 /* DeezerApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeezerApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6B110D00E53EB4015B3C9F /* Pods_Hippotify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DAF44EA2580CF8AF2D4CFB0 /* Pods_HippotifyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +124,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8BED4413AB5F473EF665EBF /* Pods_HippotifyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B1820BD3179E47C2673D74FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80CE4479C35991105F152A03 /* Pods-Hippotify.debug.xcconfig */,
+				1C55E4BEE510F667C7A4D8FB /* Pods-Hippotify.release.xcconfig */,
+				ED714B32079E3DBDDC099B5D /* Pods-HippotifyTests.debug.xcconfig */,
+				22908467870B669E54DA43C1 /* Pods-HippotifyTests.release.xcconfig */,
+				86BF3E0334A7868E39B7A8D2 /* Pods-HippotifyUITests.debug.xcconfig */,
+				7E9E092D737F14C5B368060F /* Pods-HippotifyUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DB4271849657DC663FC5EA72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				533146F42735C233116E3957 /* Pods_Hippotify.framework */,
+				06E442CCFAC7C98B0452EBC5 /* Pods_HippotifyTests.framework */,
+				2A6F6651B7B4288D5F2A58AD /* Pods_HippotifyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F792E7EA22F6C96300955A1F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				F7E41E8E22FC7ECF00CECB2B /* Extension */,
+				F792E7F222F6D20C00955A1F /* Common */,
+				F792E7EB22F6C99A00955A1F /* Controller */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		F792E7EB22F6C99A00955A1F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F70F0EA022FC898F0048691E /* TrackViewController.swift */,
+				F792E7F722F6D74200955A1F /* MusicController.swift */,
+				F7E41E8A22FC797F00CECB2B /* ArtistViewController.swift */,
+				F7E41E8C22FC798900CECB2B /* AlbumViewController.swift */,
+				F7E41E9122FC7F6200CECB2B /* BaseTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F792E7F222F6D20C00955A1F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F792E7F322F6D21900955A1F /* HippotifyView.swift */,
+				F792E7F522F6D5A000955A1F /* ShadowImageView.swift */,
+				F792E7F922F6DA9600955A1F /* HippotifySlider.swift */,
+				F792E7FB22F6DF5400955A1F /* HippotifyColor.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F7E41E8E22FC7ECF00CECB2B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F7E41E8F22FC7EE200CECB2B /* UITableViewCell+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F7E5475C22EF310400AA337C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F792E7EE22F6CE0100955A1F /* Album.swift */,
+				F792E7F022F6CE0600955A1F /* Artist.swift */,
+				F792E7EC22F6CCBC00955A1F /* BaseResponse.swift */,
+				F7E41E9322FC805A00CECB2B /* BindableCell.swift */,
+				F7E5475D22EF310B00AA337C /* Track.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		F7F94B0722EF2B4800B3D548 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +214,8 @@
 				F7F94B2722EF2B4A00B3D548 /* HippotifyTests */,
 				F7F94B3222EF2B4A00B3D548 /* HippotifyUITests */,
 				F7F94B1122EF2B4800B3D548 /* Products */,
+				B1820BD3179E47C2673D74FD /* Pods */,
+				DB4271849657DC663FC5EA72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +232,12 @@
 		F7F94B1222EF2B4800B3D548 /* Hippotify */ = {
 			isa = PBXGroup;
 			children = (
+				F792E7EA22F6C96300955A1F /* Presentation */,
+				F7F94B4122EF2B5100B3D548 /* Data */,
 				F7F94B1322EF2B4800B3D548 /* AppDelegate.swift */,
-				F7F94B1522EF2B4800B3D548 /* ViewController.swift */,
+				F73BCD3422F70E080066B52C /* Falling.mp3 */,
 				F7F94B1722EF2B4800B3D548 /* Main.storyboard */,
+				F73BCD3222F70BDC0066B52C /* Happier.mp3 */,
 				F7F94B1A22EF2B4A00B3D548 /* Assets.xcassets */,
 				F7F94B1C22EF2B4A00B3D548 /* LaunchScreen.storyboard */,
 				F7F94B1F22EF2B4A00B3D548 /* Info.plist */,
@@ -125,6 +263,35 @@
 			path = HippotifyUITests;
 			sourceTree = "<group>";
 		};
+		F7F94B4122EF2B5100B3D548 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				F7E5475C22EF310400AA337C /* Model */,
+				F7F94B4322EF2B6400B3D548 /* Api */,
+				F7F94B4222EF2B5D00B3D548 /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		F7F94B4222EF2B5D00B3D548 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				F7F94B4422EF2B7400B3D548 /* ArtistRepository.swift */,
+				F7F94B4622EF2B7D00B3D548 /* TrackRepository.swift */,
+				F7F94B4822EF2B8700B3D548 /* AlbumRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		F7F94B4322EF2B6400B3D548 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				F7F94B4A22EF2B9300B3D548 /* DeezerApi.swift */,
+				F7E5475A22EF2E3D00AA337C /* ServiceRequestable.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +299,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7F94B3822EF2B4A00B3D548 /* Build configuration list for PBXNativeTarget "Hippotify" */;
 			buildPhases = (
+				81A15CD947FF1E01E3A02B48 /* [CP] Check Pods Manifest.lock */,
 				F7F94B0C22EF2B4800B3D548 /* Sources */,
 				F7F94B0D22EF2B4800B3D548 /* Frameworks */,
 				F7F94B0E22EF2B4800B3D548 /* Resources */,
+				5778C29173AC459644181939 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +318,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7F94B3B22EF2B4A00B3D548 /* Build configuration list for PBXNativeTarget "HippotifyTests" */;
 			buildPhases = (
+				F85BB07205192E91B0DD09A1 /* [CP] Check Pods Manifest.lock */,
 				F7F94B2022EF2B4A00B3D548 /* Sources */,
 				F7F94B2122EF2B4A00B3D548 /* Frameworks */,
 				F7F94B2222EF2B4A00B3D548 /* Resources */,
@@ -167,6 +337,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7F94B3E22EF2B4A00B3D548 /* Build configuration list for PBXNativeTarget "HippotifyUITests" */;
 			buildPhases = (
+				D0159BDDF7348C71B5F1208A /* [CP] Check Pods Manifest.lock */,
 				F7F94B2B22EF2B4A00B3D548 /* Sources */,
 				F7F94B2C22EF2B4A00B3D548 /* Frameworks */,
 				F7F94B2D22EF2B4A00B3D548 /* Resources */,
@@ -230,7 +401,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7F94B1E22EF2B4A00B3D548 /* LaunchScreen.storyboard in Resources */,
+				F73BCD3522F70E080066B52C /* Falling.mp3 in Resources */,
 				F7F94B1B22EF2B4A00B3D548 /* Assets.xcassets in Resources */,
+				F73BCD3322F70BDC0066B52C /* Happier.mp3 in Resources */,
 				F7F94B1922EF2B4800B3D548 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +424,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5778C29173AC459644181939 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hippotify/Pods-Hippotify-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hippotify/Pods-Hippotify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81A15CD947FF1E01E3A02B48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hippotify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0159BDDF7348C71B5F1208A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HippotifyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F85BB07205192E91B0DD09A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HippotifyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F7F94B0C22EF2B4800B3D548 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7F94B1622EF2B4800B3D548 /* ViewController.swift in Sources */,
+				F792E7F622F6D5A000955A1F /* ShadowImageView.swift in Sources */,
+				F792E7ED22F6CCBC00955A1F /* BaseResponse.swift in Sources */,
+				F7E41E9222FC7F6200CECB2B /* BaseTableViewController.swift in Sources */,
+				F792E7FA22F6DA9600955A1F /* HippotifySlider.swift in Sources */,
+				F7E41E9422FC805A00CECB2B /* BindableCell.swift in Sources */,
+				F7E41E8B22FC797F00CECB2B /* ArtistViewController.swift in Sources */,
+				F792E7F422F6D21900955A1F /* HippotifyView.swift in Sources */,
+				F7F94B4522EF2B7400B3D548 /* ArtistRepository.swift in Sources */,
+				F7E5475B22EF2E3D00AA337C /* ServiceRequestable.swift in Sources */,
+				F7E41E9022FC7EE200CECB2B /* UITableViewCell+Extension.swift in Sources */,
+				F7F94B4722EF2B7D00B3D548 /* TrackRepository.swift in Sources */,
+				F7E5475E22EF310B00AA337C /* Track.swift in Sources */,
+				F7F94B4922EF2B8700B3D548 /* AlbumRepository.swift in Sources */,
+				F792E7FC22F6DF5400955A1F /* HippotifyColor.swift in Sources */,
+				F7E41E8D22FC798900CECB2B /* AlbumViewController.swift in Sources */,
 				F7F94B1422EF2B4800B3D548 /* AppDelegate.swift in Sources */,
+				F70F0EA122FC898F0048691E /* TrackViewController.swift in Sources */,
+				F7F94B4B22EF2B9300B3D548 /* DeezerApi.swift in Sources */,
+				F792E7F822F6D74200955A1F /* MusicController.swift in Sources */,
+				F792E7EF22F6CE0100955A1F /* Album.swift in Sources */,
+				F792E7F122F6CE0600955A1F /* Artist.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +715,7 @@
 		};
 		F7F94B3922EF2B4A00B3D548 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80CE4479C35991105F152A03 /* Pods-Hippotify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +733,7 @@
 		};
 		F7F94B3A22EF2B4A00B3D548 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C55E4BEE510F667C7A4D8FB /* Pods-Hippotify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +751,7 @@
 		};
 		F7F94B3C22EF2B4A00B3D548 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED714B32079E3DBDDC099B5D /* Pods-HippotifyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +772,7 @@
 		};
 		F7F94B3D22EF2B4A00B3D548 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22908467870B669E54DA43C1 /* Pods-HippotifyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +793,7 @@
 		};
 		F7F94B3F22EF2B4A00B3D548 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BF3E0334A7868E39B7A8D2 /* Pods-HippotifyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +813,7 @@
 		};
 		F7F94B4022EF2B4A00B3D548 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9E092D737F14C5B368060F /* Pods-HippotifyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

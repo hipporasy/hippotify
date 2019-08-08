@@ -7,3 +7,22 @@
 //
 
 import Foundation
+
+struct Album: Decodable {
+    let id: Int
+    let title: String
+    let cover: String
+    let rating: Int?
+}
+
+extension Album : BindableCell {
+    
+    var description: String {
+        return "\(rating ?? 0)".description
+    }
+    
+    var image: String {
+        return cover
+    }
+    
+}

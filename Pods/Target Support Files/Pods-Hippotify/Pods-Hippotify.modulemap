@@ -1,0 +1,6 @@
+framework module Pods_Hippotify {
+  umbrella header "Pods-Hippotify-umbrella.h"
+
+  export *
+  module * { export * }
+}

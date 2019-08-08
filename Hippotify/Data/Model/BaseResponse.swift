@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+struct BaseResponse<T: Decodable>: Decodable {
+    let data: T
+}
